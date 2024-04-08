@@ -1,0 +1,65 @@
+{
+  "id": "3593914",
+  "name": "prictice1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "32412719",
+      "name": "向上",
+      "font_class": "a-xiangshang3x",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "12796589",
+      "name": "向下",
+      "font_class": "xiangxia",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "4421842",
+      "name": "关于我们-01",
+      "font_class": "guanyuwomen-",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "5074759",
+      "name": "装修案例",
+      "font_class": "zhuangxiuanli",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "8565384",
+      "name": "icon_首页",
+      "font_class": "icon_shouye",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "15602591",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "16502821",
+      "name": "分类",
+      "font_class": "gengduo1",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "31239711",
+      "name": "站点",
+      "font_class": "zhandian",
+      "unicode": "100de",
+      "unicode_decimal": 65758
+    }
+  ]
+}

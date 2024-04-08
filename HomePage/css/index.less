@@ -1,0 +1,259 @@
+// 图标引入设置
+.icon {
+  width: 2em;
+  height: 2em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+//取消页面滚动条
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+//首张背景图片
+#first_picture {
+  overflow: hidden;
+  position: relative;
+
+  #background {
+    width: 100%;
+    min-width: 1920px;
+    height: auto;
+    display: block;
+  }
+
+  // 总框架宽度设置
+  #frameWork {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+
+    // 头部导航栏设置
+    #navigation {
+      width: 1000px;
+      height: 50px;
+      // 父元素清除浮动
+      position: fixed;
+      margin: 0 auto;
+      top: 0;
+
+      // 左侧主页图标设置
+      #left_nav {
+        float: left;
+        margin-left: 50px;
+        margin-top: 10px;
+
+        a {
+          img {
+            height: 40px;
+          }
+        }
+      }
+
+      // 右侧小图标
+      #right_nav {
+        float: right;
+        margin-right: 10px;
+
+        ul {
+          float: clear;
+
+          li {
+            float: right;
+            margin-right: 20px;
+            margin-top: 20px;
+          }
+        }
+      }
+
+      // 微信图标指向为手
+      #weiXin_icon:hover {
+        cursor: pointer;
+      }
+
+      // 微信二维码设置
+      #weiXin_img {
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        overflow: hidden;
+        height: 0px;
+        width: 204px;
+
+        // 上方小三角
+        #triangle {
+          position: absolute;
+          width: 14px;
+          height: 14px;
+          background-color: #fff;
+          transform: rotate(45deg);
+          right: 37px;
+          top: 4px;
+          border: 2px solid #ccc;
+          border-bottom: none;
+          border-right: none;
+          z-index: 1;
+        }
+
+        #img_frame {
+          top: 12px;
+          right: 0px;
+          position: absolute;
+          border: 2px solid #ccc;
+
+          img {
+            display: block;
+            width: 200px;
+            height: 200px;
+          }
+        }
+      }
+    }
+
+
+    // 自我标签设置
+    #myself {
+      min-width: 1000px;
+      // height: 500px;
+      position: fixed;
+      bottom: 200px;
+      z-index: 1;
+
+      #m_all {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+
+        // 图片设置
+        #h_sculpture {
+          #my_img {
+            width: 200px;
+          }
+        }
+
+        // 签名设置
+        #signature {
+          font-size: 25px;
+          text-align: center;
+          margin-top: 20px;
+
+          p {
+            height: 25px;
+            font-family: 楷体;
+          }
+        }
+
+        // 图标字体设置
+        #next_page {
+          position: absolute;
+          left: 75px;
+          width: 50px;
+          height: 80px;
+          z-index: 3;
+          bottom: -150px;
+
+          div {
+            height: 20px;
+            text-align: center;
+            font-size: 25px;
+
+            // 图标颜色设置
+            svg {
+              fill: #FDFDFD;
+            }
+          }
+        }
+
+        #next_page:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+// 第二背景图片
+#second_picture {
+  overflow: hidden;
+  position: relative;
+
+  //背景图片
+  #background {
+    width: 100%;
+    min-width: 1920px;
+    height: auto;
+    display: block;
+  }
+
+  //相册框架
+  .album {
+    //设置自动居中
+    width: 100%;
+    position: absolute;
+    bottom: 200px;
+    z-index: 2;
+
+    .photo_all {
+      width: 1000px;
+      height: 800px;
+      margin: 0 auto;
+      position: relative;
+
+      .photo {
+        top: 200px;
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        border: 5px ridge black;
+        box-shadow: 0px 0px 10px 10px black;
+        transform: rotate(-10deg);
+
+        .background_photo {
+          width: 500px;
+          height: 500px;
+        }
+
+        .lovely {
+          position: absolute;
+          left: 0;
+          width: 500px;
+          height: 500px;
+        }
+      }
+
+      .photo:hover {
+        cursor: pointer;
+      }
+
+      //分别设置图片位置
+      #photo_one {
+        left: 0px;
+      }
+
+      #photo_two {
+        left: 100px;
+      }
+
+      #photo_three {
+        left: 200px;
+      }
+
+      #photo_four {
+        left: 300px;
+      }
+
+      #photo_five {
+        left: 400px;
+      }
+
+      #photo_six {
+        left: 500px;
+      }
+
+    }
+  }
+}

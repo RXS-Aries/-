@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入css文件 -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- 设置网页图标 -->
+    <link rel="shortcut icon" href="./img/fav.ico" type="imge/x-icon">
+    <!-- 引入样式清除表 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入图标样式 -->
+    <script src="./icon/iconfont.js"></script>
+    <!-- 引入js -->
+    <script src="./js/index.js"></script>
+    <title>个人主页</title>
+</head>
+
+<body>
+    
+    <!-- 首页图片框架 -->
+    <div id="first_picture">
+        <img id="background" src="./img/日出.jpg" alt="日出">
+        
+        <div id="frameWork">
+            <!-- 导航框架 -->
+            <nav id="navigation">
+                <!-- 左侧主图标 -->
+                <div id="left_nav">
+                    <a href="">
+                        <img src="./img/2.png" alt="主图标">
+                    </a>
+                </div>
+                <!-- 右侧图标 -->
+                <div id="right_nav">
+                    <!-- 图标列表 -->
+                    <ul>
+                        <!-- 微信图标 -->
+                        <li id="weiXin_icon">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-weixin"></use>
+                            </svg>
+                            <!-- 微信图片 -->
+                            <div id="weiXin_img">
+                                <span id="triangle"></span>
+                                <div id="img_frame">
+                                    <img src="./img/微信.png" alt="微信二维码">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-zhuangxiuanli"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-icon_shouye"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </nav>
+            <!-- 自我标签 -->
+            <div id="myself">
+                <div id="m_all">
+                    <!-- 头像 -->
+                    <div id="h_sculpture">
+                        <img id="my_img" src="./img/头像.png" alt="头像">
+                    </div>
+                    <!-- 签名 -->
+                    <div id="signature">
+                        <p>昨天是段历史</p>
+                        <br>
+                        <p>明天是个谜团</p>
+                        <br>
+                        <p>今天是天赐的礼物</p>
+                    </div>
+                    <!-- 下一页标签 -->
+                    <div id="next_page">
+                        <!-- 图标字体 -->
+                        <div id="pageOne">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-xiangxia"></use>
+                            </svg>
+                        </div>
+                        <div id="pageTwo">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-xiangxia"></use>
+                            </svg>
+                        </div>
+                        <div id="pageThree">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-xiangxia"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 第二页框架 -->
+    <div id="second_picture" class="second_picture">
+        <img id="background" src="./img/金山.jpg" alt="云海"> 
+        <!-- 相册框架 -->
+        <div class="album">
+            <div class="photo_all">
+                <div class="photo"  id="photo_one">
+                    <img class="background_photo" src="./img/背景1.jpg" alt="背景1">
+                    <img  class="lovely" src="./img/兴奋.svg" alt="兴奋">
+                </div>
+                <div class="photo"id="photo_two">
+                    <img class="background_photo" src="./img/背景2.jpg" alt="背景2">
+                    <img  class="lovely" src="./img/吐舌.svg" alt="吐舌">
+                </div>
+                <div class="photo"id="photo_three">
+                    <img class="background_photo" src="./img/背景3.jpg" alt="背景3">
+                    <img  class="lovely" src="./img/安慰.svg" alt="安慰">
+                </div>
+                <div class="photo"id="photo_four">
+                    <img class="background_photo" src="./img/背景4.jpg" alt="背景4">
+                    <img  class="lovely" src="./img/开心.svg" alt="开心">
+                </div>
+                <div class="photo"id="photo_five">
+                    <img class="background_photo" src="./img/背景5.jpg" alt="背景5">
+                    <img  class="lovely" src="./img/愉悦.svg" alt="愉悦">
+                </div>
+                <div class="photo"id="photo_six">
+                    <img class="background_photo" src="./img/背景6.jpg" alt="背景6">
+                    <img class="lovely" src="./img/振奋.svg" alt="振奋">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
